@@ -34,7 +34,7 @@ jobs:
         with:
           path: 'build/'
 
- deploy:
+  deploy:
     needs: build_site
     runs-on: ubuntu-latest
 
