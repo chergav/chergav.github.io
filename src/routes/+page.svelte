@@ -6,7 +6,7 @@
 </header>
 
 <main class="size-full flex flex-col items-center grow">
-	<div class="py-4 flex flex-col items-center gap-2">
+	<div class="py-4 flex flex-col items-center gap-4 text-lg">
 		<a
 			href="/extensions"
 			class="

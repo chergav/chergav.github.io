@@ -1,17 +1,4 @@
 <header class="w-full flex flex-col items-center gap-6">
-	<nav class="w-full">
-		<ul>
-			<li>
-				<a
-					href="/extensions"
-					class="flex items-center gap-2 text-blue-600 dark:text-blue-400 hover:underline"
-				>
-					<Icon d={mdiArrowLeft} size="20" />
-					<span>All extensions</span>
-				</a>
-			</li>
-		  </ul>
-	</nav>
 	<img src={video_converter_440x280} alt="logo" class="h-44 rounded-3xl">
 	<h2 class="text-xl text-center">
 		<p>Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser.</p>
@@ -71,6 +58,4 @@
 import video_converter_96 from '$lib/assets/video-converter_96.png';
 import video_converter_440x280 from '$lib/assets/video-converter_440x280.png';
 import chrome_web_store from '$lib/assets/chrome-web-store.png';
-import Icon from '$lib/components/Icon.svelte';
-import { mdiArrowLeft } from '@mdi/js';
 </script>
