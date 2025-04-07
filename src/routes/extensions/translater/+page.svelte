@@ -16,7 +16,7 @@
 	<h2 class="text-xl">Translate selected text with Google Translate on all web pages</h2>
 </header>
 
-<main class="size-full flex flex-col items-center gap-4">
+<main class="size-full flex flex-col items-center gap-4 grow">
 	<div class="flex flex-col md:flex-row items-center gap-1">
 		<a href="https://chrome.google.com/webstore/detail/abebconmjhhbcjofpchjkbbimgkhdmbe" target="_blank">
 			<img src={chrome_web_store} alt="Chrome web store" class="h-14">
@@ -94,7 +94,7 @@
 			rel="noopener noreferrer"
 		>
 			<Icon d={mdiGithub} />
-			<span>Github</span>
+			<span>Translater</span>
 		</a>
 	</div>
 </footer>
