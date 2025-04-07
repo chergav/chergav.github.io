@@ -65,6 +65,7 @@
 <svelte:head>
 	<link rel="icon" type="image/png" href={video_converter_96}>
 	<title>Video Converter</title>
+	<meta name="google-site-verification" content="fWzN9AzbnwTevGQxF-RtwiQvpQ3qPbjc5u-EANfYpYU" />
 </svelte:head>
 
 <script lang="ts">
