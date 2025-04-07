@@ -1,16 +1,19 @@
 <header>
-	<h1 class="text-2xl">Extensions</h1>
+	<h1 class="text-2xl flex items-center gap-4">
+		<Icon d={mdiPuzzleOutline} size="48" />
+		Browser Extensions
+	</h1>
 </header>
 
 <main class="size-full flex flex-col items-center">
-	<div class="py-4 flex flex-col gap-4">
+	<div class="py-4 flex flex-col gap-6">
 		{#each extensions as extension (extension.link)}
 			<a
 				href="/extensions/{extension.link}"
 				class="
 					flex
 					items-center
-					gap-2
+					gap-4
 					hover:underline
 				"
 				rel="noopener noreferrer"
@@ -23,12 +26,16 @@
 </main>
 
 <svelte:head>
+	<link rel="icon" type="image/png" href={favicon} />
 	<title>Extensions</title>
 </svelte:head>
 
 <script lang="ts">
 import translater_96 from '$lib/assets/translater_96.png';
 import video_converter_96 from '$lib/assets/video-converter_96.png';
+import favicon from '$lib/assets/favicon.png';
+import Icon from '$lib/components/Icon.svelte';
+import { mdiPuzzleOutline } from '@mdi/js';
 
 const extensions = [
 	{

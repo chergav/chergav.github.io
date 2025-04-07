@@ -8,5 +8,4 @@ import '../app.css';
 import '@fontsource-variable/inter';
 
 let { children }: LayoutProps = $props();
-// console.log(data);
 </script>
