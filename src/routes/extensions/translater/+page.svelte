@@ -1,5 +1,5 @@
 <header class="w-full flex flex-col items-center gap-6">
-	<img src={translater_440x280} alt="logo" class="h-44 rounded-3xl">
+	<img src={translater_440x280} alt="logo" class="h-44 rounded-2xl">
 	<h2 class="text-xl">Translate selected text with Google Translate on all web pages</h2>
 </header>
 

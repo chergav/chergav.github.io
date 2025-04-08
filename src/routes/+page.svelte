@@ -16,7 +16,7 @@
 				hover:underline
 			"
 		>
-			<Icon d={mdiPuzzleOutline} />
+			<Icon d={mdiPuzzleOutline} size="32" />
 			<span>Browser Extensions</span>
 		</a>
 	</div>

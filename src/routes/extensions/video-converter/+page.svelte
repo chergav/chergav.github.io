@@ -1,5 +1,5 @@
 <header class="w-full flex flex-col items-center gap-6">
-	<img src={video_converter_440x280} alt="logo" class="h-44 rounded-3xl">
+	<img src={video_converter_440x280} alt="logo" class="h-44 rounded-2xl">
 	<h2 class="text-xl text-center">
 		<p>Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser.</p>
 		<p>Fast, private, and easy to use. No uploads, no data leaks.</p>
