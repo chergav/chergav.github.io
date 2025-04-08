@@ -40,7 +40,7 @@ const extensions = [
 	},
 	{
 		name: 'Video Converter',
-		description: 'Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser.',
+		description: 'Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser. Fast, private, and easy to use. No uploads, no data leaks.',
 		link: 'video-converter',
 		img: video_converter_440x280,
 	},
