@@ -15,7 +15,7 @@
 			rel="noopener noreferrer"
 		>
 			<div class="max-w-64 md:max-w-2xl flex flex-col md:flex-row gap-2">
-				<div class="max-w-64 flex">
+				<div class="max-w-64 flex shrink-0">
 					<img alt="ext logo" src={extension.img} class="max-w-full h-auto rounded-2xl" />
 				</div>
 				<div class="p-4 flex flex-col gap-4">
@@ -40,8 +40,7 @@ const extensions = [
 	},
 	{
 		name: 'Video Converter',
-		// description: 'Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser. Fast, private, and easy to use. No uploads, no data leaks.',
-		description: 'Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser.',
+		description: 'Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser. Fast, private, and easy to use. No uploads, no data leaks.',
 		link: 'video-converter',
 		img: video_converter_440x280,
 	},
