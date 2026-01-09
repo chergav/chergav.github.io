@@ -68,7 +68,7 @@
 </main>
 
 <footer>
-	<div>
+	<div class="flex flex-col items-center gap-1 text-sm">
 		<a
 			href="https://github.com/chergav/translater"
 			class="
@@ -82,6 +82,17 @@
 		>
 			<Icon d={mdiGithub} />
 			<span>Translater</span>
+		</a>
+		<a
+			href="/extensions/translater/privacy-policy"
+			class="
+				flex
+				items-center
+				gap-2
+				hover:underline
+			"
+		>
+			<span>Privacy Policy</span>
 		</a>
 	</div>
 </footer>
