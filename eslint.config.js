@@ -27,7 +27,7 @@ export default ts.config(
 		rules: {
 			'no-undef': 'off',
 			'@stylistic/max-len': ['error', {
-				code: 120,
+				code: 150,
 				tabWidth: 4,
 				ignoreUrls: true,
 				ignoreStrings: true,
