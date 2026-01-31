@@ -1,15 +1,15 @@
 <div>
-	<h1 class="text-4xl font-bold mb-2">Privacy Policy</h1>
+	<h1 class="mb-2 text-4xl font-bold">Privacy Policy</h1>
 	<p class="mb-8">Last updated: January 9, 2026</p>
 
 	<section class="mb-8">
-		<h2 class="text-2xl font-semibold mb-4">Data Collection</h2>
+		<h2 class="mb-4 text-2xl font-semibold">Data Collection</h2>
 		<p class="mb-4">
 			This extension collects minimal, anonymous data only in the following case:
 		</p>
 
-		<h3 class="text-xl font-semibold mb-3">Uninstall Feedback (Optional)</h3>
-		<ul class="list-disc list-inside space-y-2 ml-4">
+		<h3 class="mb-3 text-xl font-semibold">Uninstall Feedback (Optional)</h3>
+		<ul class="ml-4 list-inside list-disc space-y-2">
 			<li>When you uninstall the extension, you may be redirected to an optional feedback form</li>
 			<li>This form may collect: browser type, browser version, and operating system information</li>
 			<li>This data is anonymous and used solely to improve the extension</li>
@@ -18,17 +18,17 @@
 	</section>
 
 	<section class="mb-8">
-		<h2 class="text-2xl font-semibold mb-4">Translation Services</h2>
+		<h2 class="mb-4 text-2xl font-semibold">Translation Services</h2>
 		<p class="mb-3">
 			The extension uses third-party translation APIs:
 		</p>
-		<ul class="list-disc list-inside space-y-1 ml-4 mb-4">
+		<ul class="mb-4 ml-4 list-inside list-disc space-y-1">
 			<li>Google Translate API</li>
 			<li>MyMemory Translation API</li>
 		</ul>
 
 		<p class="mb-2">When you translate text:</p>
-		<ul class="list-disc list-inside space-y-2 ml-4">
+		<ul class="ml-4 list-inside list-disc space-y-2">
 			<li>The text is sent to these services for translation</li>
 			<li>We do not store, collect, or have access to the translated text</li>
 			<li>Translation data is processed according to the respective service providers' privacy policies</li>
@@ -36,8 +36,8 @@
 	</section>
 
 	<section class="mb-8">
-		<h2 class="text-2xl font-semibold mb-4">Data Storage</h2>
-		<ul class="list-disc list-inside space-y-2 ml-4">
+		<h2 class="mb-4 text-2xl font-semibold">Data Storage</h2>
+		<ul class="ml-4 list-inside list-disc space-y-2">
 			<li>All extension settings are stored locally in your browser</li>
 			<li>No personal data is transmitted to our servers</li>
 			<li>We do not track your browsing activity</li>
@@ -45,17 +45,17 @@
 	</section>
 
 	<section>
-		<h2 class="text-2xl font-semibold mb-4">Contact</h2>
+		<h2 class="mb-4 text-2xl font-semibold">Contact</h2>
 		<p>
 			If you have questions about this privacy policy, please contact:
-			<a href="mailto:chergav@outlook.com" class="text-blue-500 underline">
+			<a class="text-blue-500 underline" href="mailto:chergav@outlook.com">
 				chergav@outlook.com
 			</a>
 		</p>
 	</section>
 </div>
 
-<footer class="text-center text-sm mt-8">
+<footer class="mt-8 text-center text-sm">
 	<p>This privacy policy applies to the Chrome Extension only</p>
 </footer>
 

@@ -1,24 +1,24 @@
-<header class="w-full flex flex-col items-center gap-6">
-	<img src={video_converter_440x280} alt="logo" class="h-44 rounded-2xl">
-	<h2 class="text-xl text-center">
+<header class="flex w-full flex-col items-center gap-6">
+	<img class="h-44 rounded-2xl" alt="logo" src={video_converter_440x280}>
+	<h2 class="text-center text-xl">
 		<p>Convert videos to MP4, MKV, MOV, WEBM, AVI – all locally in your browser.</p>
 		<p>Fast, private, and easy to use. No uploads, no data leaks.</p>
 	</h2>
 </header>
 
-<main class="size-full flex flex-col items-center gap-4">
-	<div class="flex flex-col md:flex-row items-center gap-1">
+<main class="flex size-full flex-col items-center gap-4">
+	<div class="flex flex-col items-center gap-1 md:flex-row">
 		<a href="https://chrome.google.com/webstore/detail/baimnjhjfdpinakbmjajondbamkaaail" target="_blank">
-			<img src={chrome_web_store} alt="Chrome web store" class="h-14">
+			<img class="h-14" alt="Chrome web store" src={chrome_web_store}>
 		</a>
 	</div>
 
 	<div class="flex flex-col gap-2">
 		<a
-			href="https://chrome.google.com/webstore/detail/baimnjhjfdpinakbmjajondbamkaaail"
 			class="flex items-center gap-1"
-			target="_blank"
+			href="https://chrome.google.com/webstore/detail/baimnjhjfdpinakbmjajondbamkaaail"
 			rel="noopener noreferrer"
+			target="_blank"
 		>
 			<img alt="Chrome Web Store Version" src="https://img.shields.io/chrome-web-store/v/baimnjhjfdpinakbmjajondbamkaaail?logo=googlechrome&logoColor=4285F4">
 			<img alt="Chrome Web Store Rating" src="https://img.shields.io/chrome-web-store/rating/baimnjhjfdpinakbmjajondbamkaaail">
@@ -50,7 +50,7 @@
 </main>
 
 <svelte:head>
-	<link rel="icon" type="image/png" href={video_converter_96}>
+	<link href={video_converter_96} rel="icon" type="image/png">
 	<title>Video Converter</title>
 </svelte:head>
 

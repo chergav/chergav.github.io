@@ -1,4 +1,4 @@
-<div class="size-full min-h-screen p-6 flex flex-col items-center gap-6">
+<div class="flex size-full min-h-screen flex-col items-center gap-6 p-6">
 	{@render children()}
 </div>
 
@@ -8,7 +8,7 @@
 
 <script lang="ts">
 import type { LayoutProps } from './$types';
-import '../app.css';
+import '../tailwind.css';
 import '@fontsource-variable/inter';
 
 let { children }: LayoutProps = $props();

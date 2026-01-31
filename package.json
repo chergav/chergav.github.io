@@ -22,10 +22,13 @@
 		"@tailwindcss/vite": "^4.1.18",
 		"@types/node": "^25.0.3",
 		"eslint": "^9.39.2",
+		"eslint-plugin-better-tailwindcss": "^4.0.2",
 		"eslint-plugin-svelte": "^3.14.0",
 		"globals": "^17.0.0",
 		"svelte": "^5.46.1",
 		"svelte-check": "^4.3.5",
+		"tailwind-merge": "^3.4.0",
+		"tailwind-variants": "^3.2.2",
 		"tailwindcss": "^4.1.18",
 		"typescript": "^5.9.3",
 		"typescript-eslint": "^8.52.0",
@@ -38,6 +41,7 @@
 	},
 	"dependencies": {
 		"@fontsource-variable/inter": "^5.2.8",
-		"@mdi/js": "^7.4.47"
+		"@mdi/js": "^7.4.47",
+		"svelte-sonner": "^1.0.7"
 	}
 }

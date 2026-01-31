@@ -1,16 +1,16 @@
 <header>
-	<h1 class="text-2xl flex items-center gap-4">
+	<h1 class="flex items-center gap-4 text-2xl">
 		<Icon d={mdiPuzzleOutline} size="40" />
 		Browser Extensions
 	</h1>
 </header>
 
-<main class="size-full flex flex-col items-center">
+<main class="flex size-full flex-col items-center">
 	<ExtensionsList />
 </main>
 
 <svelte:head>
-	<link rel="icon" type="image/png" href={favicon} />
+	<link href={favicon} rel="icon" type="image/png" />
 	<title>Extensions</title>
 </svelte:head>
 

@@ -1,47 +1,47 @@
-<header class="w-full flex flex-col items-center gap-6">
-	<img src={translater_440x280} alt="logo" class="h-44 rounded-2xl">
+<header class="flex w-full flex-col items-center gap-6">
+	<img class="h-44 rounded-2xl" alt="logo" src={translater_440x280}>
 	<h2 class="text-xl">Translate selected text with Google Translate on all web pages</h2>
 </header>
 
-<main class="size-full flex flex-col items-center gap-4 grow">
-	<div class="flex flex-col md:flex-row items-center gap-1">
+<main class="flex size-full grow flex-col items-center gap-4">
+	<div class="flex flex-col items-center gap-1 md:flex-row">
 		<a href="https://chrome.google.com/webstore/detail/abebconmjhhbcjofpchjkbbimgkhdmbe" target="_blank">
-			<img src={chrome_web_store} alt="Chrome web store" class="h-14">
+			<img class="h-14" alt="Chrome web store" src={chrome_web_store}>
 		</a>
 		<a href="https://microsoftedge.microsoft.com/addons/detail/ohcoejhlajaopflplmckddjcfecgleij" target="_blank">
-			<img src={egde_add_ons} alt="Microsoft Edge Add-ons" class="h-14">
+			<img class="h-14" alt="Microsoft Edge Add-ons" src={edge_add_ons}>
 		</a>
 		<a href="https://addons.mozilla.org/firefox/addon/translater-gt" target="_blank">
-			<img src={firefox_add_ons} alt="FireFox Add-ons" class="h-14">
+			<img class="h-14" alt="FireFox Add-ons" src={firefox_add_ons}>
 		</a>
 	</div>
 
 	<div class="flex flex-col gap-2">
 		<a
-			href="https://chrome.google.com/webstore/detail/abebconmjhhbcjofpchjkbbimgkhdmbe"
 			class="flex items-center gap-1"
-			target="_blank"
+			href="https://chrome.google.com/webstore/detail/abebconmjhhbcjofpchjkbbimgkhdmbe"
 			rel="noopener noreferrer"
+			target="_blank"
 		>
 			<img alt="Chrome Web Store Version" src="https://img.shields.io/chrome-web-store/v/abebconmjhhbcjofpchjkbbimgkhdmbe?logo=googlechrome&logoColor=4285F4">
 			<img alt="Chrome Web Store Rating" src="https://img.shields.io/chrome-web-store/rating/abebconmjhhbcjofpchjkbbimgkhdmbe">
 			<img alt="Chrome Web Store Users" src="https://img.shields.io/chrome-web-store/users/abebconmjhhbcjofpchjkbbimgkhdmbe">
 		</a>
 		<a
-			href="https://microsoftedge.microsoft.com/addons/detail/ohcoejhlajaopflplmckddjcfecgleij"
 			class="flex items-center gap-1"
-			target="_blank"
+			href="https://microsoftedge.microsoft.com/addons/detail/ohcoejhlajaopflplmckddjcfecgleij"
 			rel="noopener noreferrer"
+			target="_blank"
 		>
 			<img alt="Microsoft Addons Version" src="https://img.shields.io/badge/dynamic/json?label=edge%20add-on&prefix=v&query=%24.version&url=https://microsoftedge.microsoft.com/addons/getproductdetailsbycrxid/ohcoejhlajaopflplmckddjcfecgleij&logo=microsoftedge&logoColor=0078D7">
 			<img alt="Microsoft Addons Rating" src="https://img.shields.io/badge/dynamic/json?label=rating&suffix=/5&query=%24.averageRating&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fohcoejhlajaopflplmckddjcfecgleij">
 			<img alt="Microsoft Addons Users" src="https://img.shields.io/badge/dynamic/json?label=users&query=%24.activeInstallCount&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fohcoejhlajaopflplmckddjcfecgleij">
 		</a>
 		<a
-			href="https://addons.mozilla.org/firefox/addon/translater-gt"
 			class="flex items-center gap-1"
-			target="_blank"
+			href="https://addons.mozilla.org/firefox/addon/translater-gt"
 			rel="noopener noreferrer"
+			target="_blank"
 		>
 			<img alt="Firefox Addons Version" src="https://img.shields.io/amo/v/translater-gt?logo=firefoxbrowser&logoColor=FF7139">
 			<img alt="Firefox Addons Rating" src="https://img.shields.io/amo/rating/translater-gt">
@@ -50,19 +50,14 @@
 	</div>
 
 	<div>
-		<ul class="list-inside" style="list-style-type: '✅ '">
-			<li>Translate selected text. Simply select the text and click the translate button.</li>
-			<li>Auto-translate when editing the source text.</li>
-			<li>Translate any text by writing or pasting from the clipboard.</li>
-			<li>All Google Translate languages are supported (over 100).</li>
-			<li>Display dictionary, definition and examples when translating a single word or phrase.</li>
-			<li>One-click reverse translation.</li>
-			<li>Translation history.</li>
-			<li>Quickly navigate through history.</li>
-			<li>Copy original and translated text to the clipboard.</li>
-			<li>Text voicing.</li>
-			<li>Selecting a voice for text voicing (when available in the browser).</li>
-			<li>Light and dark themes.</li>
+		<ul class="list-inside list-disc">
+			<li>Select-and-translate: highlight text and click the button to get a translation</li>
+			<li>Quick pop-up translation via keyboard shortcut or browser-bar button</li>
+			<li>Support for 100+ languages and alternative translations</li>
+			<li>Dictionary: definitions and examples for single words or phrases</li>
+			<li>One-click reverse translation, plus history with quick navigation</li>
+			<li>Text-to-speech with selectable voices (if supported by browser)</li>
+			<li>Light and dark themes</li>
 		</ul>
 	</div>
 </main>
@@ -70,27 +65,17 @@
 <footer>
 	<div class="flex flex-col items-center gap-1 text-sm">
 		<a
+			class="flex items-center gap-2 hover:underline"
 			href="https://github.com/chergav/translater"
-			class="
-				flex
-				items-center
-				gap-2
-				hover:underline
-			"
-			target="_blank"
 			rel="noopener noreferrer"
+			target="_blank"
 		>
 			<Icon d={mdiGithub} />
 			<span>Translater</span>
 		</a>
 		<a
-			href="/extensions/translater/privacy-policy"
-			class="
-				flex
-				items-center
-				gap-2
-				hover:underline
-			"
+			class="flex items-center gap-2 hover:underline"
+			href={resolve('/extensions/translater/privacy-policy')}
 		>
 			<span>Privacy Policy</span>
 		</a>
@@ -98,15 +83,16 @@
 </footer>
 
 <svelte:head>
-	<link rel="icon" type="image/png" href={translater_96}>
+	<link href={translater_96} rel="icon" type="image/png">
 	<title>Translater</title>
 </svelte:head>
 
 <script lang="ts">
+import { resolve } from '$app/paths';
 import translater_96 from '$lib/assets/translater_96.png';
 import translater_440x280 from '$lib/assets/translater_440x280.png';
 import chrome_web_store from '$lib/assets/chrome-web-store.png';
-import egde_add_ons from '$lib/assets/egde-add-ons.svg';
+import edge_add_ons from '$lib/assets/edge-add-ons.svg';
 import firefox_add_ons from '$lib/assets/firefox-add-ons.svg';
 import Icon from '$lib/components/Icon.svelte';
 import { mdiGithub } from '@mdi/js';
