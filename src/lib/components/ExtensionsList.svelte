@@ -21,7 +21,7 @@
 <script lang="ts">
 import type { Pathname } from '$app/types';
 import { resolve } from '$app/paths';
-import translater_440x280 from '$lib/assets/translater_440x280.png';
+import translator_440x280 from '$lib/assets/translator_440x280.png';
 import video_converter_440x280 from '$lib/assets/video-converter_440x280.png';
 
 interface Extension {
@@ -33,10 +33,10 @@ interface Extension {
 
 const extensions: Extension[] = [
 	{
-		name: 'Translater',
+		name: 'Translator',
 		description: 'Translate selected text with Google Translate on all web pages',
 		link: '/extensions/translater',
-		img: translater_440x280,
+		img: translator_440x280,
 	},
 	{
 		name: 'Video Converter',

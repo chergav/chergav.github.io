@@ -1,5 +1,5 @@
 <header class="flex w-full flex-col items-center gap-6">
-	<img class="h-44 rounded-2xl" alt="logo" src={translater_440x280}>
+	<img class="h-44 rounded-2xl" alt="logo" src={translator_440x280}>
 	<h2 class="text-xl">Translate selected text with Google Translate on all web pages</h2>
 </header>
 
@@ -71,7 +71,7 @@
 			target="_blank"
 		>
 			<Icon d={mdiGithub} />
-			<span>Translater</span>
+			<span>Translator</span>
 		</a>
 		<a
 			class="flex items-center gap-2 hover:underline"
@@ -83,14 +83,14 @@
 </footer>
 
 <svelte:head>
-	<link href={translater_96} rel="icon" type="image/png">
-	<title>Translater</title>
+	<link href={translator_96} rel="icon" type="image/png">
+	<title>Translator</title>
 </svelte:head>
 
 <script lang="ts">
 import { resolve } from '$app/paths';
-import translater_96 from '$lib/assets/translater_96.png';
-import translater_440x280 from '$lib/assets/translater_440x280.png';
+import translator_96 from '$lib/assets/translator_96.png';
+import translator_440x280 from '$lib/assets/translator_440x280.png';
 import chrome_web_store from '$lib/assets/chrome-web-store.png';
 import edge_add_ons from '$lib/assets/edge-add-ons.svg';
 import firefox_add_ons from '$lib/assets/firefox-add-ons.svg';
